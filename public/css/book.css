@@ -1,0 +1,362 @@
+* {
+   margin: 0;
+   padding: 0;
+
+}
+
+.container1 {
+   position: fixed;
+   width: 100%;
+   display: flex;
+   justify-content: space-between;
+   background-color: rgb(255, 255, 255);
+   box-shadow: -1px 24px 37px -13px rgba(0,0,0,0.75);
+   -webkit-box-shadow: -1px 24px 37px -13px rgba(0,0,0,0.75);
+   -moz-box-shadow: -1px 24px 37px -13px rgba(0,0,0,0.75);
+}
+
+.container1 .lego {
+   padding: 20px;
+}
+
+.container1 .real_nav ul {
+   display: flex;
+   padding: 20px;
+}
+
+.container1 .real_nav ul li {
+   list-style: none;
+   color: rgba(2, 1, 1, 0.933);
+   padding: 10px;
+   transition: 1s;
+}
+
+.container1 .real_nav ul li a {
+   text-decoration: none;
+   color: rgb(0, 0, 0);
+   font-family: sans-serif;
+   transition: 1s;
+   font-size: .85em;
+   cursor: pointer;
+  
+}
+
+.container1 .real_nav ul li :hover {
+   color: rgba(0, 0, 0, 0.761);
+}
+.container2{
+   width: 100%;
+   background-image:linear-gradient(rgba(168, 165, 165, 0.5), rgba(190, 187, 187, 0.5)), url("/img/room.jpg");
+   background-size: cover;
+   background-position: center;
+   height: 100vh;
+  display: flex;
+ 
+
+}
+
+.container2 .hotel-info{
+   width: 50%;
+  background-color: rgba(72, 71, 70, 0.662);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+
+  
+}
+.container2 .hotel-info .hotel-name{
+   color: rgb(255, 255, 255);
+   margin-top: 20%;
+   font-size: 30px;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   
+}
+.container2 .hotel-info  .hotel-slogan{
+   font-size: 20px;
+   color: #fff;
+   padding: 20px;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.container2 .hotel-info  .our-services{
+   color: #fff;
+   padding: 20px;
+   font-family:  Geneva, Tahoma, sans-serif;
+}
+
+.container2 .hotel-info .pics{
+   
+   border: solid white 2px;
+   display: flex;
+   width: 100%;
+
+   justify-content: space-around;
+}
+
+.container2 .hotel-info .pics .pic{
+  padding: 10px;
+  border-radius: 5px;
+
+}
+.container2 .hotel-info .pics :hover{
+   background-color: rgba(0, 0, 0, 0.267);
+   
+}
+
+
+
+.reserve-hotel{
+    margin-top: 160px;
+    margin-left: 30px;
+    width: 50%;
+}
+
+.reserve-hotel form .one{
+    width: 100%;
+}
+.reserve-hotel form .one .name{
+   background-color: #e6e6e63d;
+    border: none;
+    width: 40%;
+    height: 40px;
+    box-shadow: 0px 1px 31px -6px rgba(0,0,0,0.75);
+-webkit-box-shadow: 0px 1px 31px -6px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 1px 31px -6px rgba(0,0,0,0.75);
+}
+.reserve-hotel form .one .email{
+   background-color: #e6e6e63d;
+    border: none;
+    width: 40%;
+    height: 40px;
+    box-shadow: 0px 1px 31px -6px rgba(0,0,0,0.75);
+-webkit-box-shadow: 0px 1px 31px -6px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 1px 31px -6px rgba(0,0,0,0.75);
+}
+.reserve-hotel form .two{
+    width: 100%;
+    margin-top: 20px;
+  
+   
+}
+.reserve-hotel form .two .phone{
+   background-color: #e6e6e63d;
+    border: none;
+    width: 40%;
+    height: 40px;
+    box-shadow: 0px 1px 31px -6px rgba(0,0,0,0.75);
+-webkit-box-shadow: 0px 1px 31px -6px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 1px 31px -6px rgba(0,0,0,0.75);
+}
+.reserve-hotel form .two .phone::placeholder{
+    color: #E6E6E6;
+    
+}
+.reserve-hotel form .one ::placeholder{
+    color: #E6E6E6;
+    transform: matrix(1px);
+    
+}
+.reserve-hotel form .two .Rooms{
+   background-color: #e6e6e63d;
+    border: none;
+    width: 20%;
+    height: 40px;
+    color: #fff;
+    box-shadow: 0px 1px 31px -6px rgba(0,0,0,0.75);
+-webkit-box-shadow: 0px 1px 31px -6px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 1px 31px -6px rgba(0,0,0,0.75);
+}
+.reserve-hotel form .two .guest{
+   background-color: #e6e6e63d;
+    border: none;
+    width: 20%;
+    color: #fff;
+    height: 40px;
+    box-shadow: 0px 1px 31px -6px rgba(0,0,0,0.75);
+-webkit-box-shadow: 0px 1px 31px -6px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 1px 31px -6px rgba(0,0,0,0.75);
+}
+.reserve-hotel form .three{
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.reserve-hotel .form .three .a {
+color: #fff;
+width:50%;
+}
+.reserve-hotel .form .three .a input{
+   background-color: #e6e6e63d;
+        margin-top: 5px;
+        width: 70%;
+        height: 50px;
+        border: none;
+        color: #fff;
+    
+}
+.reserve-hotel .form .three .b {
+   color: #fff;
+    width: 50%;
+    margin-left: 10px;
+}
+.reserve-hotel .form .three .b input{
+   background-color: #e6e6e63d;
+        margin-top: 5px;
+        width: 70%;
+        height: 50px;
+        border: none;
+        color: #fff;
+       
+    
+}
+.btn  .bl button {
+    width:90%;
+    height: 70px;
+    border: none;
+    margin-top: 50px;
+    
+    font-size: large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: gray;
+}
+.btn form .bl button:hover{
+    background-color: #F78536;
+    color: white;
+}
+
+
+/* footer */
+
+.footer{
+   background-color:rgb(232, 238, 238);
+   width: 100%;
+  }
+  .int-footer{
+   width: 80%;
+}
+.int-footer{
+ 
+   display: flex;
+   justify-content: space-around;
+   padding-top: 100px;
+   padding-bottom: 150px;
+   margin-left: 30px;
+   
+   
+}
+
+.right{
+ 
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  
+
+}
+.right ul{
+   font-size: 20px;
+   list-style: none;
+   
+}
+.company ul li a{
+   text-decoration: none;
+   color: #FF5722;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   font-weight: 100;
+}
+.company ul li {
+   
+   list-style: none;
+   
+}
+.company ul li a:hover{
+   text-decoration: underline;
+   
+}
+.company h2{
+   text-align: center;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   margin-bottom: 30px;
+}
+.our_facilities{
+
+}
+.our_facilities ul {
+   list-style: none;
+}
+.our_facilities ul li a {
+   list-style: none;
+   text-decoration: none;
+   color: #FF5722;
+   font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   font-weight: 100;
+}
+.our_facilities h2{
+   text-align: center;
+   font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   margin-bottom: 30px;
+}
+.our_facilities ul li a:hover{
+   text-decoration: underline;}
+   .subscribe h2{
+      text-align: center;
+      font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      margin-bottom: 30px;
+   }
+.subscribe{
+   align-items: center;
+   text-align: left;
+   
+}
+.subscribe p{
+   font-size: medium;
+   font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serifsystem-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   font-style: normal;
+}
+.subscribe .form{
+   display: flex;
+}
+.subscribe .form .form_box form input{
+  border-radius: 5px;
+  border: none;
+  width: 100%;
+  height: 50px;
+  
+}
+.subscribe .form .form_btn {
+   width: 30%;
+   height: 50px;
+   background-color: rgb(73, 76, 80);
+   align-items: center;
+   border: none;
+   border-radius: 5px;
+}
+.subscribe .form .form_btn a {
+   color: #E6E6E6;
+   text-align: center;
+   text-decoration: none;
+
+}
+
+
+.social_media {
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+ }
+ .social_media .btn {
+   width: 60px;
+   height: 60px;
+ 
+   border-radius: 30%;
+   align-items: center;
+   font-size: 300px;
+   margin-left: 20px;
+ }
+ 
+ .social_media .btn li a span .fa-brands {
+   align-self: center;
+   width: 300px;
+   font-size: 300px;
+ }
+ 
