@@ -42,7 +42,7 @@ To get started with VisitGamo on your local host, follow the installation and us
 
 1. Clone this repository to your local machine using Git.
     ```bash
-        this will the link 
+       https://github.com/jacze-dev/visit-gamo-website.git
 
 2. Navigate to the project directory.
     ```bash
