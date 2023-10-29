@@ -1,4 +1,4 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+<img src="https://firebasestorage.googleapis.com/v0/b/photos-for-projcts.appspot.com/o/Screenshot 2023-10-29 054116.png?alt=media&token=d6b4d2d3-ea18-4e6f-91db-ad83d18c09fc" alt="My Screenshot" width="600" height="300">
 
 <p align="center">
 <a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
